@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车侧边栏动画</title>
+	<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+	<p style="font-weight:bold;">注释：点击每个选项卡页面的左上角可以关闭当前页面</p>
+	<div id="sidebar-navi-id">
+	<ul>
+		<li id="server" class="menu-server"><img src="./img/4.jpg" alt=""></li>
+		<li id="shopcar" class="menu">
+			<span class="fa fa-shopping-cart" aria-hidden="true"></span>
+			<div class="menu-item">购物车</div>
+			<div class="menu-item-num">75</div>
+			<div class="line"></div>
+		</li>
+		<li id="store" class="menu">
+			<span class="fa fa-heart-o" aria-hidden="true"></span>
+			<div class="menu-item">收藏夹</div>
+			<div class="line"></div>
+		</li>
+		<li id="footer" class="menu">
+			<span class="fa fa-slideshare" aria-hidden="true"></span>
+			<div class="menu-item">足迹</div>
+		</li>
+	</ul>
+	<div id="closebar">
+		<span class="fa fa-remove"></span>
+	</div>
+</div>
+<div id="server-content" class="nav-content">
+	<div class="nav-con-close">
+		<span class="fa fa-chevron-right"></span>
+	</div>
+	<div></div>
+</div>
+<div id="shopcar-content" class="nav-content">
+	<div class="nav-con-close">
+		<span class="fa fa-chevron-right"></span>
+	</div>
+	<div>
+		购物车
+	</div>
+</div>
+<div id="store-content" class="nav-content">
+	<div class="nav-con-close">
+		<span class="fa fa-chevron-right"></span>
+	</div>
+	<div>
+		收藏夹
+	</div>
+</div>
+<div id="footer-content" class="nav-content">
+	<div class="nav-con-close">
+		<span class="fa fa-chevron-right"></span>
+	</div>
+	<div>
+		足迹
+	</div>
+</div>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
